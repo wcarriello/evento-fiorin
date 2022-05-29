@@ -20,12 +20,12 @@ export default function Home() {
               <Image src={abertura} alt="Reinauguração Fiorin Fiorello Modas"/>
             </div>
             <div className={styles.abertura + ' ' + 'pr-8 pl-8 pt-8 pb-8'}>
-              <h1 className="text-3xl font-bold mb-5">
+              <h1 className="text-3xl font-bold mb-5 uppercase">
                 Convite de reinauguração
               </h1>
               <p className='mb-4'>Está chegando o grande dia!</p>
               <p className='mb-4'>A FIORIN FIORELLO convida você para a reinauguração  de nossa loja de acessórios e roupas femininas. </p>
-              <p className='mb-4'>Será dia 11 de junho das 10h às 16h com um grande coquetel de boas vindas.</p>
+              <p className='mb-4'>Será dia 11 de Junho, das 10h às 16h, com um grande coquetel de boas vindas.</p>
               <p className='mb-4'>Venha fazer parte desse dia especial. Sua presença irá abrilhantar nosso dia! </p>
               <p className='mb-4'>Contamos com você!</p>
               <h3 className='mb-4 font-bold'>Confirme sua presença clicando no botão abaixo.</h3>
