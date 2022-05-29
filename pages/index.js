@@ -23,12 +23,13 @@ export default function Home() {
               <h1 className="text-3xl font-bold mb-5">
                 Convite de reinauguração
               </h1>
-              <p className='mb-4'>Estamos chegando …. você está convidado para um dia de muita alegria e surpresas nesse dia especial.</p>
-              <p className='mb-4'>Venha fazer parte deste dia especial!!!</p>
-              <p className='mb-4'>Conto com você lá!</p>
-              <h3 className='mb-4 font-bold'>Confirme sua presença e ajude o anfitrião a organizar a festa</h3>
+              <p className='mb-4'>Está chegando o grande dia!</p>
+              <p className='mb-4'>A FIORIN FIORELLO convida você para a reinauguração  de nossa loja de acessórios e roupas femininas. </p>
+              <p className='mb-4'>Será dia 11 de junho das 10h às 16h com um grande coquetel de boas vindas.</p>
+              <p className='mb-4'>Venha fazer parte desse dia especial. Sua presença irá abrilhantar nosso dia! </p>
+              <p className='mb-4'>Contamos com você!</p>
+              <h3 className='mb-4 font-bold'>Confirme sua presença clicando no botão abaixo.</h3>
               <div className={styles.abertura + ' ' + 'pr-8 pl-8 pt-0 pb-8'}>
-                <p className='mb-4'>Dia 11/06 | Das 10:00 às 18:00</p>
                 <Link href="https://wa.me/5519974194636?text=Ol%C3%A1%21+Eu+%2Aestou+confirmando%2A+a+minha+presen%C3%A7a+na+%2AReinaugura%C3%A7%C3%A3o+da+Fiorin+Fiorello%2A+no+dia+%2A11+de+Jun+%C3%A0s+10%3A00%2A."> 
                   <a className='bg-neutral-900 text-white p-2 rounded font-bold text-3xl'>🙂 Eu vou</ a>
                 </Link>
