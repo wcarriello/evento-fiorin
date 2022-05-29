@@ -27,7 +27,8 @@ export default function Home() {
               <p className='mb-4'>Venha fazer parte deste dia especial!!!</p>
               <p className='mb-4'>Conto com você lá!</p>
               <h3 className='mb-4 font-bold'>Confirme sua presença e ajude o anfitrião a organizar a festa</h3>
-              <div className={styles.abertura + ' ' + 'pr-8 pl-8 pt-8 pb-8'}>
+              <div className={styles.abertura + ' ' + 'pr-8 pl-8 pt-0 pb-8'}>
+                <p className='mb-4'>Dia 11/06 | Das 10:00 às 18:00</p>
                 <Link href="https://wa.me/5519974194636?text=Ol%C3%A1%21+Eu+%2Aestou+confirmando%2A+a+minha+presen%C3%A7a+na+%2AReinaugura%C3%A7%C3%A3o+da+Fiorin+Fiorello%2A+no+dia+%2A11+de+Jun+%C3%A0s+10%3A00%2A."> 
                   <a className='bg-neutral-900 text-white p-2 rounded font-bold text-3xl'>🙂 Eu vou</ a>
                 </Link>
@@ -38,7 +39,7 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
-        Desenvolvido e criado por: Plano Ah!
+        Desenvolvido e criado por: <Link href="https://planoah.com/" className={styles.planoah}> Plano Ah!</Link>
       </footer>
     </div>
   )
